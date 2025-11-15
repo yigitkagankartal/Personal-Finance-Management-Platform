@@ -8,8 +8,6 @@ A full–stack personal finance dashboard where users can track their incomes an
 
 ---
 
----
-
 # 📊 Preview
 
 <p align="center">
