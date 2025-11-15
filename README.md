@@ -81,9 +81,13 @@ This project includes an automatic startup script (**start-dev.bat**) that launc
 - PostgreSQL
 - Git
 
-## 📥 Clone the Project
-git clone https://github.com/<your-username>/<your-repo>.git
-cd finance-app
+## 📦 Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yigitkagankartal/Personal-Finance-Management-Platform.git
+
+```
 
 ## 🗄 PostgreSQL Setup
 Create a database named: `finance_db`
