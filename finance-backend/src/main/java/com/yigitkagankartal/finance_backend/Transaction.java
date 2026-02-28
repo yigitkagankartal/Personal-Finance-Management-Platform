@@ -3,7 +3,10 @@ package com.yigitkagankartal.finance_backend;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "transactions")
+@Table(name = "transactions", indexes = {
+        @Index(name = "idx_transaction_type", columnList = "type"),
+        @Index(name = "idx_transaction_category", columnList = "category")
+})
 public class Transaction {
 
     @Id
